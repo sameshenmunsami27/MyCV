@@ -1,0 +1,46 @@
+/* 1. Price Tag Styling */
+.price-text {
+    color: magenta;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+/* 2. Product Card Styling */
+.product-card {
+    border: 1px solid lightgray;
+    background-color: white;
+    transition: box-shadow 0.3s ease;
+    height: 100%;
+    text-align: center;
+}
+
+/* Shadow effect on hover */
+.product-card:hover {
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* 3. Image Hover Effect */
+.product-image {
+    height: 200px; 
+    object-fit: contain; 
+    padding: 10px;
+    transition: transform 0.4s ease;
+}
+
+/* Scale the image when the parent card is hovered */
+.product-card:hover .product-image {
+    transform: scale(1.1);
+}
+
+/* 4. Footer Styling */
+footer {
+    background-color: whitesmoke;
+    padding: 40px 0;
+    margin-top: 50px;
+    border-top: 1px solid lightgray;
+}
+
+.footer-logo {
+    max-width: 60px;
+    height: auto;
+}
